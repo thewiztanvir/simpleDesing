@@ -1,0 +1,143 @@
+body{
+	background: #001239;
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	height: 70px;
+	background-color: #EA1431;
+	overflow: hidden;
+}
+.navbar .brand{
+	color: #001239;
+	/*color:#fff;*/
+	font-size: 45px;
+	width: 20%;
+	text-align: center;
+	float: left;
+	/*margin-top: 5px;*/
+	font-family: 'Grenze Gotisch', cursive;
+}
+.navbar .nav{
+	
+
+}
+nav .nav ul{
+	list-style: none;
+	display: flex;
+	justify-content:  flex-end;
+	overflow: hidden;
+}
+nav .nav ul li{
+	
+	margin-top: -2px;	
+
+}
+nav .nav ul li a{
+	color: #001239;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	transition: 0.6s;
+}
+.nav ul li a:hover{
+	background-color: #001239;
+	color: #EA1431;
+	transform: rotate(4deg);
+}
+.nav ul li a:focus{
+	background-color: #fff;
+	color: #EA1431;
+}
+.container{
+	width: 75%;
+	margin:auto;
+}
+.content{
+	overflow: hidden;
+	margin-top: 50px;
+}
+.part-1{
+ 	/*display: block;*/
+ 	height: 345px; 
+}
+.part-1 .image{
+	width: 49%;
+	float: left;
+}
+.part-1 .image img{
+	width: 100%;
+}
+.part-1 .para{
+	width: 49%;
+	float:left;
+}
+.part-1 .para p{
+	text-align: justify;
+	margin-left: 20px;
+	width: 100%;
+	font-size: 20px;
+	color: #EA1431;
+	font-family: 'Grenze Gotisch', cursive;
+	letter-spacing: 2px;
+}
+/*hr{
+	border: 1px solid #FFC312;
+	  border-image: 
+    linear-gradient(
+      to left, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+    margin-left: 20px;
+}*/
+.part-2{
+	margin-top: 20px;
+	height: 345px;
+	/*display: block;*/
+	/*overflow: hidden;
+*/
+}
+
+.part-2 .para{
+	float: left;
+	width: 49%;
+}
+.part-2 .para p{
+	text-align: justify;
+	/*margin-left: 20px;*/
+	width: 100%;
+	font-size: 20px;
+	color: #EA1431;
+	font-family: 'Grenze Gotisch', cursive;
+	letter-spacing: 2px;
+}
+.part-2 .image{
+	width: 49%;
+	float: left;
+	margin-left: 20px;
+}
+.part-2 .image img{
+	width: 100%;
+
+}
+footer{
+	height: 50px;
+	background-color: #EA1431;
+	
+}
+footer{
+	/*margin-top: 10px;*/
+
+	font-family: 'Josefin Sans', sans-serif;
+
+	overflow: hidden;
+}
+footer p{
+	font-size: 20px;
+	color: #001239;
+	
+	text-align: center; 
+}
